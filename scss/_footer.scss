@@ -1,0 +1,88 @@
+@media screen and (min-width: 1170px) {
+    .footer{
+        width: 100%;
+        height: 415px;
+        background-color: #1a2d34;
+        .container{
+            width: 1170px;
+            height: 100%;
+            margin: 0 auto;
+            padding-top: 77px;
+            font-family: $ff-OpenSansRegular;
+            .acor-container{
+                display: flex;
+                justify-content: space-between;
+                input{
+                    display: none;
+                }
+                label{
+                    color: #fff;
+                }
+                .acor-body{
+                    display: flex;
+                    flex-direction: column;
+                    a{
+                        color: #608896;
+                        line-height: 1.5;
+                    }
+                }
+            }
+            .acor-container_block1{
+                label{
+                    display: none;
+                }
+                .acor-body{
+                    a{
+                        color: #fff;
+                    }
+                }
+            }
+            .acor-container_block2{
+                .acor-body{
+                    display: flex;
+                    flex-direction: row;
+                }
+                .acor-body_box_left{
+                    display: flex;
+                    flex-direction: column;
+                    padding-right: 30px;
+                }
+                .acor-body_box_right{
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+            .footer__main{
+                display: flex;
+                padding-top: 50px;
+                color: #608896;
+                .footerMain__link{
+                    padding-left: 4%;
+                    a{
+                        color: #608896;
+                    }
+                }
+                .footerMain__social{
+                    padding-left: 40%;
+                    i{
+                        width: 27px;
+                        height: 27px;
+                        background-color: #608896;
+                        color: #1a2d34;
+                        border-radius: 50%;
+                        font-size: 20px;
+                    }
+                    .fa-instagram{
+                        padding: 4px;
+                    }
+                    .fa-vk{
+                        padding: 5px 2px;
+                    }
+                    .fa-facebook-f{
+                        padding: 5px 7px;
+                    }
+                }
+            }
+        }
+    }
+}

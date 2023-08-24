@@ -1,0 +1,144 @@
+@media screen and (min-width: 1170px) {
+    .header{
+        .header-desktop{
+            .header__info{
+                width: 100%;
+                height: 100px;
+                .container{
+                    max-width: 1170px;
+                    height: 100%;
+                    margin: 0 auto;
+                    display: flex;
+                    justify-content: space-between;
+                    padding-top: 10px;
+                    .headerInfo__left{
+                        display: flex;
+                    }
+                    .header__address{
+                        padding-top: 28px;
+                        padding-left: 55px;
+                        i{
+                            color: #84c604;
+                        }
+                        span{
+                            color: #000000;
+                        }
+                    }
+                    .headerInfo__right{
+                        display: flex;
+                        padding-top: 15px;
+                    }
+                    .header__email{
+                        padding-top: 5px;
+                        padding-right: 49px;
+                        font-family: $ff-OpenSansRegular;
+                        i{
+                            color: #84c604;
+                            font-size: 14px;
+                            padding-top: 5px;
+                        }
+                        span{
+                            color: #000000;
+                            padding-left: 10px;
+                        }
+                    }
+                    .header__tell{
+                        display: flex;
+                        flex-direction: column;
+                        padding: 10px 30px;
+                    }
+                    span:nth-child(1){
+                        font-family:$ff-OpenSansBold;
+                        cursor: pointer;
+                    }
+                    span:nth-child(2){
+                        font-size: 10px;
+                        font-family: $ff-OpenSansRegular;
+                    }
+                    button{
+                        width: 170px;
+                        height: 38px;
+                        border: 1px solid #84c604;
+                        background-color: #fff;
+                        border-radius: 5px;
+                        color: #84c604;
+                        font-family: $ff-OpenSansSemiBold;
+                        cursor: pointer;
+                        transition: 0.5s;
+
+                    }
+                    button:hover{
+                        background-color: #84c604;
+                        color: #fff;
+                    }
+                }
+            }
+
+            .header__menu{
+                .container{
+                    width: 1170px;
+                    height: 50px;
+                    margin: 0 auto;
+                    text-align: center;
+                    ul{
+                        list-style-type: none;
+                        display: flex;
+                    }
+                    .menu-dropdown{
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    li{
+                        width: 15%;
+                        height: 50px;
+                        padding-top: 12px;
+                        font-family: $ff-OpenSansSemiBold;
+                        transition: 0.4s;
+                        cursor: pointer;
+                        display: inline;
+                    }
+                    li:hover a{
+                        color: #fff;
+                    }
+                    li a, .submenu li a{
+                        color: rgb(0, 0, 0);
+                    }
+                    .menu>li{
+                        position: relative;
+                    }
+                    .menu>li:hover{
+                        background-color: #84c604;
+                    }
+                    .submenu{
+                        height: auto;
+                        display:none;
+                        position: absolute;
+                        left:0%;
+                        right:0%;
+                        top: 100%;
+                        z-index: 3;
+                    }
+                    .submenu li{
+                        width: 100%;
+                        border: 1px solid #84c604;
+                    }
+                    .menu li:hover .submenu{
+                        display:block;
+                        background-color: white;
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    .submenu li:hover{
+                        background-color: #84c604;
+                    }
+                    .submenu li:hover a{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        .header_hamburger_block{
+            display: none;
+        }
+    }
+}

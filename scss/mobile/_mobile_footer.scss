@@ -1,0 +1,102 @@
+@media screen and (max-width: 1169px){
+    .acor-container {
+        width: 100%;
+        
+        padding: 2px 2px;
+        background-color: #20353d;
+    }
+    .acor-container .acor-body {
+        width: 100%;
+        margin: 0 auto;
+        height: 0;
+        color: rgba(0, 0, 0, 0);
+        background-color: #20353d;
+        line-height: 18px;
+        padding: 0 30px;
+        box-sizing: border-box;
+        transition: color 0.5s, padding 0.5s;
+        overflow: hidden;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+    .acor-container .acor-body p {
+        margin: 0 0 10px;
+    }
+    .acor-container label {
+        cursor: pointer;
+        background-color: #1a2d34;
+        display: block;
+        padding: 15px 20px;
+        width: 100%;
+        color: #BFE2FF;
+        font-weight: 300;
+        box-sizing: border-box;
+        z-index: 100;
+        font-family: Verdana, sans-serif;   
+        font-size: 18px;
+        margin: 0 0 2px;
+        transition: color .35s;
+    }
+    .acor-container label:hover {
+        color: #FFF;
+    }
+    .acor-container input{
+        display: none;
+    }
+    .acor-container label:before {
+        content: '\276F';
+        float: right;
+    }
+    .acor-container input:checked + label {
+        background-color: #1a2d34;
+        color: #FFF;
+    }
+    .acor-container input:checked + label:before {
+        transition: transform .35s;
+        transform: rotate(90deg);
+    }
+    .acor-container input:checked + label + .acor-body {
+        height: auto;
+        margin-top: -5px;
+        color: #6b96a5;
+        padding: 20px 30px 10px;
+    }
+    .footer__main{
+        background-color: #1a2d34;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 10px 0;
+        text-align: center;
+        color: #BFE2FF;
+    }
+    .footerMain{
+        padding: 20px 0;
+    }
+    a{
+        color: #BFE2FF;
+        padding: 15px 0;
+        margin: 0 10px;
+        i{  
+            width: 30px;
+            height: 30px;
+            padding-top: 5px;
+            border-radius: 50%;
+            background-color: #fff;
+            color: #1a2d34;
+            font-size: 20px;
+        }
+    }
+    .acor-container_block2{
+        .acor-body{
+            display: flex;
+            flex-direction: column;
+            .acor-body_box{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+            }
+        }
+    }
+}

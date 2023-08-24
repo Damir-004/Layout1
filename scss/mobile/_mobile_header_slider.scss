@@ -1,0 +1,95 @@
+@media screen and (max-width: 1169px) {
+    .header_slider{
+        .header_slider_block{
+            width: 100%;
+            height:200px;
+            background: url(../image/header_slider.png);
+            background-size: 160% 100%;
+            background-repeat: no-repeat;
+            outline: none;
+            padding:0 15px;
+        }
+        .header_slider_block_text{
+            display: flex;
+        }
+        .header_slider_text{
+            font-size: 49px;
+            font-family: $ff-LemonTuesdayRegular;
+            color: #84c604;
+            padding-top: 30px;
+        }
+        .span{
+            width: 70px;
+            height: 67px;
+            border-radius: 50%;
+            background-color: red;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            font-family: $ff-OpenSansBold;
+            transform: translateY(100%);
+        }
+        .working-hours{
+            font-size: 12px;
+            color: #fff;
+            font-family: $ff-OpenSansRegular;
+        }
+        a{
+            display: none;
+        }
+    }
+}
+
+
+/*IPAD*/
+
+@media screen and (min-width: 765px) and (max-width: 1169px) {
+    .header_slider{
+        .header_slider_block{
+            width: 100%;
+            height:50%;
+            background: url(../image/header_slider.png);
+            background-size: 160%;
+            background-repeat: no-repeat;
+            outline: none;
+            padding:30px 15px;
+        }
+        .header_slider_text{
+            font-size: 49px;
+            font-family: $ff-LemonTuesdayRegular;
+            color: #84c604;
+            padding-top: 30px;
+        }
+        .span{
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            background-color: red;
+            color: #fff;
+            margin-top: 20px;
+            margin-left: 60%;
+            padding: 30px 0;
+            text-align: center;
+            font-family: $ff-OpenSansBold;
+            font-weight: 600;
+        }
+        .working-hours{
+            color: #fff;
+            font-family: $ff-OpenSansRegular;
+            padding: 30px 0;
+        }
+        button{
+            background-color: #fd4f10;
+            font-family: $ff-OpenSansRegular;
+            border-radius: 7px;
+            border: none;
+        }
+        a{
+            width: 185px;
+            height: 55px;
+            color: #fff;
+            text-align: center;
+            display: block;
+        }
+    }
+}

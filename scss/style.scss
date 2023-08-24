@@ -1,0 +1,51 @@
+@import "variables";
+@import "fonts";
+
+*,
+::before,
+::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+@import "header";
+@import "mobile/mobile_header";
+
+@import "header_slider";
+@import "mobile/mobile_header_slider";
+
+@import "sets";
+@import "mobile/mobile_sets";
+
+@import "rolls";
+@import "mobile/mobile_rolls";
+
+@import "pizza_block";
+@import "mobile/mobile_pizza_block";
+
+@import "wok";
+@import "mobile/mobile_wok";
+
+@import "new_items_and_promotions";
+@import "mobile/mobile_new_items_and_promotions";
+
+@import "reasons_to_buy_from_us";
+@import "ipad/ipad_reasons_to_buy_from_us";
+@import "mobile/mobile_reasons_to_buy_from_us";
+
+@import "reviews";
+@import "mobile/mobile_reviews";
+
+@import "send_questions";
+@import "ipad/ipad_send_questions";
+@import "mobile/mobile_send_questions";
+
+@import "company";
+@import "ipad/ipad_company";
+@import "mobile/mobile_company";
+
+@import "footer";
+@import "mobile/mobile_footer";

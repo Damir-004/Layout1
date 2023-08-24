@@ -1,0 +1,141 @@
+.pizza{
+    .container{
+        width: 100%;
+        height: 630px;
+        padding: 0 15px;
+        .pizza_top-block{
+            width: 280px;
+            display: flex;
+            justify-content: space-around;
+            padding-top: 35px;
+            margin: 0 auto;
+        }
+        .img-before{
+            width: 75px;
+            height: 28px;
+            background: url(../image/sets-before-img.png);
+        }
+        .pizza_main-text{
+            font-size: 44px;
+            font-family: $ff-LemonTuesdayRegular;
+            color: #32505a;
+            padding-bottom: 20px;
+        }
+        .img-after{
+            width: 75px;
+            height: 28px;
+            background: url(../image/sets-after-img.png);
+        }
+        .pizza_slider_block{
+            width: 100%;
+            height: 520px;
+            padding-top: 25px;
+        }
+        .pizza_block{
+            width: 260px;
+            height: 480px;
+            margin: 0 auto;
+            border-radius: 15px;
+            box-shadow: 0px 4px 29px 0px rgba(0, 0, 0, 0.08);
+        }
+        .pizza_slider_img{
+            max-width: 260px;
+            height: 245px;
+            margin: 0 auto;
+        }
+        .pizza_slider_block_img1{
+            background: url(../image/pissaImg1.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+        .pizza_slider_block_img2{
+            background: url(../image/pissaImg2.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+        .pizza_slider_block_img3{
+            background: url(../image/pissaImg3.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+        .pizza_slider_block_img4{
+            background: url(../image/pissaImg4.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+
+        .pizza_slider_block_bottom{
+            max-width: 260px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .pizza_name{
+            font-family: $ff-OpenSansBold;
+            font-size: 20px;
+            font-weight: 700;
+            padding-top: 10px;
+        }
+        .bez-nazvani{
+            font-family: $ff-OpenSansLight;
+            font-size: 12px;
+            padding: 20px 0;
+        }
+
+        .amount_and_quantity{
+            display: flex;
+            justify-content: space-around;
+            padding: 30px 0;
+        }
+        .sum{
+            font-size: 22px;
+            font-weight: 700;
+            font-family: $ff-RobotoSlabBold;
+        }
+        .quantity{
+            font-size: 14px;
+        }
+        .quantity::before{
+            content: "-";
+            color: #838383;
+            font-size: 20px;
+            border: 1px solid #838383;
+            border-radius: 50%;
+            padding: 0 7px;
+            margin: 0 7px;
+            cursor: pointer;
+        }
+        .quantity::after{
+            content: "+";
+            color: #838383;
+            font-size: 20px;
+            border: 1px solid #838383;
+            border-radius: 50%;
+            padding: 0 5px;
+            margin: 0 7px;
+            cursor: pointer;
+        }
+        .basket{
+            width: 193px;
+            height: 41px;
+            font-family: $ff-OpenSansSemiBold;
+            font-size: 14px;
+            background-color: #fd4f10;
+            color: #fff;
+            border-radius: 5px;
+            padding-top: 5px;
+            margin: 0 auto;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+        .basket::after{
+            font-family: "Font Awesome 5 Brands";
+            content: "\f291";
+            color: #838383;
+            font-size: 20px;
+        }
+        .basket:hover{
+            box-shadow: 0 0 15px gray;
+
+        }
+    }
+}

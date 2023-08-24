@@ -1,0 +1,100 @@
+@media screen and (max-width: 764px) {
+    .reasons_to_buy_from_us{
+        .container{
+            width: 100%;
+            height: auto;
+            padding: 0 15px;
+            .top_block{
+                display:flex;
+            }
+            .top_block_main-text{
+                font-size: 44px;
+                font-family: $ff-LemonTuesdayRegular;
+                color: #32505a;
+                padding: 20px 50px;
+                text-align: center;
+            }
+            .bottom_block{
+                width: 100%;
+            }
+            .bottom_box{
+                margin: 50px 0;
+            }
+            .bottom_box_img{
+                width: 65px;
+                height: 80px;
+                margin: 0 auto;
+            }
+            .box_img1{
+                background: url(../image/reason-kitchen.png);
+                background-size: 100%;
+                background-repeat: no-repeat;
+            }
+            .box_img2{
+                background: url(../image/reason-rice.png);
+                background-size: 100%;
+                background-repeat: no-repeat;
+            }
+            .box_img3{
+                background: url(../image/reason-dish.png);
+                background-size: 100%;
+                background-repeat: no-repeat;
+            }
+            .box_img4{
+                background: url(../image/reason-octopus.png);
+                background-size: 100%;
+                background-repeat: no-repeat;
+            }
+            .box_img5{
+                background: url(../image/reason-money.png);
+                background-size: 100%;
+                background-repeat: no-repeat;
+            }
+            .box_img6{
+                background: url(../image/reason-knife.png);
+                background-size: 100%;
+                background-repeat: no-repeat;
+            }
+            .box_img7{
+                background: url(../image/reason-like.png);
+                background-size: 100%;
+                background-repeat: no-repeat;
+            }
+            .box_img8{
+                background: url(../image/reason-pizza.png);
+                background-size: 100%;
+                background-repeat: no-repeat;
+            }
+            .box_img9{
+                background: url(../image/reason-fish.png);
+                background-size: 100%;
+                background-repeat: no-repeat;
+            }
+            .box_img10{
+                background: url(../image/reason-feather-hand-drawn-outline.png);
+                background-size: 100%;
+                background-repeat: no-repeat;
+            }
+            .bottom_box_text{
+                padding: 0 70px;
+                font-size: 16px;
+                font-family: $ff-OpenSansRegular;
+                text-align: center;
+                line-height: 1.5;
+            }
+            a{
+                width: 100%;
+                border-radius: 5px;
+                border: 1px solid #fd4f10;
+                color: #fd4f10;
+                padding: 5px 15%;
+                margin: 0 12%;
+                cursor: pointer;
+            }
+            a:hover{
+                background-color: #fd4f10;
+                color: #fff;
+            }
+        }
+    }
+}

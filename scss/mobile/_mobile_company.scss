@@ -1,0 +1,44 @@
+@media screen and (max-width: 764px) {
+    .company{
+        .container{
+            width: 100%;
+            height: 100%;
+            padding:35px 15px;
+            .top_block_main-text{
+                font-size: 44px;
+                font-family: $ff-LemonTuesdayRegular;
+                color: #32505a;
+                text-align: center;
+                padding-bottom: 30px;
+            }
+            .company_block_text p:nth-child(1){
+                color: #32505a;
+                font-size: 20px;
+                font-family: $ff-OpenSansBold;
+            }
+            p{
+                padding: 15px 0;
+                font-size: 14px;
+                font-family: $ff-OpenSansRegular;
+                color: #4c4c4c;
+                line-height: 1.4;
+            }
+            .bottom_block{
+                width: 100%;
+                height: 40px;
+                padding: 9px 0;
+                text-align: center;
+                font-family: $ff-OpenSansSemiBold;
+                color: #fd4f10;
+                border:1px solid #fd4f10;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: 0.5s;
+            }
+            .bottom_block:hover{
+                background: #fd4f10;
+                color: #fff;
+            }
+        }
+    }
+}
